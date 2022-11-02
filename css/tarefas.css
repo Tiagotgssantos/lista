@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #091921;
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.2em;
+}
+
+.titulo{
+    position: relative;
+    left: 38%;
+    top: 100px;
+}
+
+.conteudo{
+    position: relative;
+    left: 35%;
+    top: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 150px;
+    background: #2b2a2a;
+    text-align: center;
+}
+
+#tarefa{
+    position: relative;
+    top: 15px;
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 10px;
+    background: #191818;
+    color: white;
+    border: none;
+}
+
+#btnTarefa{
+    position: relative;
+    top: 15px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background: #191818;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#listaTarefas{
+    position: relative;
+    top: 30px;
+    left: 55px;
+    text-align: start;
+    
+}
+
+#listaTarefas li{ 
+    list-style: none;
+    background: #191818;
+    width: 290px;
+    border-radius: 5px;
+}
+
+.textoTarefa{
+    position: relative;
+    top: 15px;
+    left: 5px;
+}
+
+#listaTarefas div{
+    text-align: end;
+}
+
+.btnAcao{
+    position: relative;
+    top: -10px;
+    left: -5px;
+    margin: 0 2px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    background: #2b2929;
+    color: white;
+    width: 30px;
+    height: 30px;
+
+}
